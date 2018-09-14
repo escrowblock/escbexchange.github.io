@@ -1,0 +1,322 @@
+.overlay {
+  position: absolute;
+  float: left;
+  margin-top: 1.5em;
+  z-index: 999;
+}
+
+.overlay .ui.menu .item {
+  padding: 5px;
+}
+
+.overlay .ui.labeled.icon.menu .item {
+  min-width: auto;
+}
+
+.overlay .menu {
+  position: relative;
+  left: 0;
+  transition: left 0.5s ease;
+}
+
+.overlay.fixed .menu {
+  left: 0px;
+  min-height: auto;
+}
+
+.hidden.menu {
+  display: none;
+}
+
+.masthead.segment {
+  min-height: 600px;
+  padding: 1em 0em;
+}
+.masthead .logo.item img {
+  margin-right: 1em;
+}
+.masthead .ui.menu .ui.button,
+.mustheader .ui.menu .ui.button {
+  margin-left: 0.5em;
+}
+.masthead h1.ui.header {
+  font-size: 4em;
+  font-weight: normal;
+}
+.masthead-black.masthead h1.ui.header {
+  color: black;
+  text-align: center;
+}
+.masthead h2 {
+  font-size: 1.7em;
+  font-weight: normal;
+}
+.ui.vertical.stripe {
+  padding: 8em 0em;
+}
+.ui.vertical.stripe h3 {
+  font-size: 2em;
+}
+.ui.vertical.stripe .button + h3,
+.ui.vertical.stripe p + h3 {
+  margin-top: 3em;
+}
+.ui.vertical.stripe .floated.image {
+  clear: both;
+}
+.ui.vertical.stripe p {
+  font-size: 1.33em;
+}
+.ui.vertical.stripe.special p {
+  font-size: initial;
+}
+.ui.vertical.stripe .horizontal.divider {
+  margin: 3em 0em;
+}
+
+.quote.stripe.segment {
+  padding: 0em;
+}
+.quote.stripe.segment .grid .column {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.footer.segment {
+  padding: 5em 0em;
+}
+
+.secondary.pointing.menu .toc.item {
+  display: none;
+}
+
+.pulse-effect {
+  position: relative;
+  border: none;
+  box-shadow: 0 0 0 0 rgba(219, 40, 40, 0.7);
+  border-radius: 0%;
+  background-size:cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+
+.pulse-effect:hover {
+  -webkit-animation: none;-moz-animation: none;-ms-animation: none;animation: none;
+}
+
+@-webkit-keyframes pulse {to {box-shadow: 0 0 0 25px rgba(219, 40, 40, 0);}}
+@-moz-keyframes pulse {to {box-shadow: 0 0 0 25px rgba(219, 40, 40, 0);}}
+@-ms-keyframes pulse {to {box-shadow: 0 0 0 25px rgba(219, 40, 40, 0);}}
+@keyframes pulse {to {box-shadow: 0 0 0 25px rgba(219, 40, 40, 0);}}
+
+.pulse-effect-force {
+  box-shadow: 0 0 0 0 rgba(219, 40, 40, 0.7) !important;
+}
+
+.landing-image h1.ui.header {
+  margin-top: 0em;
+}
+
+.landing-logo {
+  width: 100px;
+  margin-top: 0.5em;
+  -webkit-filter: drop-shadow( 2px -2px 3px rgba(0,0,0,0.7) );
+            filter: drop-shadow( 2px -2px 3px rgba(0,0,0,0.7) );
+}
+
+.padding-1-em {
+  padding: 1em;
+}
+
+.padding-2-em {
+  padding: 2em;
+}
+
+.ui.header.padding-1-em {
+  padding: 1em;
+  padding-top: 0;
+}
+
+.width-8-rem {
+  width: 8rem;
+}
+
+.ui.special-steps .step {
+  flex-direction: column;
+  justify-content: unset;
+}
+
+.ui.special-steps .content .title {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.overflow-background {
+  position: absolute;
+  z-index: 0;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  overflow: hidden;
+  background-size: cover;
+  background-color: rgb(0, 0, 0);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-image: none;
+
+  video {
+    margin: auto;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: visible;
+    opacity: 1;
+    width: auto;
+    height: 140%;
+  }
+}
+
+.ui.container.title-wrapper {
+  margin-top: 7%;
+  position: relative;
+  text-shadow: 1px 2px #efefef;
+  width: 50%;
+}
+
+.color-purple-channel {
+  color: #a333c8;
+  display: inline-block;
+  padding: 0.5em;
+}
+
+.asterisk {
+  color: #db2828;
+  font-size: 1.1em;
+}
+
+.container.social .column {
+  padding-top: 1em;
+}
+
+.mustheader h1.ui.header {
+  font-size: 3em;
+  font-weight: normal;
+}
+
+.ui.vertical.stripe h3.period-iito-header {
+  font-size: 1.28571429rem;
+}
+
+.iito-accept-currency .tiny.image {
+  width: 125px;
+}
+
+#iito {
+  padding-bottom: 0rem;
+}
+
+.ui.ordered.list.manifest .list>.item:before,
+.ui.ordered.list.manifest>.item:before,
+ol.ui.list.manifest li:before {
+  margin-left: -2rem;
+  color: #a333c8;
+  font-weight: bold;
+}
+
+.ui.inverted.vertical.footer.segment {
+  padding-top: 4em;
+}
+
+@media only screen and (max-width: 700px) {
+  .ui.fixed.menu {
+    display: none !important;
+  }
+  .secondary.pointing.menu .item,
+  .secondary.pointing.menu .menu {
+    display: none;
+  }
+  .secondary.pointing.menu .toc.item {
+    display: block;
+  }
+  .masthead.segment {
+    min-height: 350px;
+  }
+  .masthead h1.ui.header {
+    font-size: 2em;
+    margin-top: 1.5em;
+  }
+  .masthead h2 {
+    margin-top: 0.5em;
+    font-size: 1.5em;
+  }
+}
+
+/**
+ * Ticker
+**/
+@-webkit-keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.ticker-wrap {
+  width: auto;
+  overflow: hidden;
+  height: 4rem;
+  background-color: #efefef;
+  padding-left: 100%;
+  box-sizing: content-box;
+}
+
+.ticker-wrap  .ticker {
+  display: inline-block;
+  height: 4rem;
+  line-height: 4rem;
+  white-space: nowrap;
+  padding-right: 100%;
+  box-sizing: content-box;
+
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-name: ticker;
+          animation-name: ticker;
+  -webkit-animation-duration: 30s;
+          animation-duration: 30s;
+}
+
+.ticker-wrap .ticker .ticker__item {
+  display: inline-block;
+  padding: 0 2rem;
+  font-size: 2rem;
+  color: #000;
+}
